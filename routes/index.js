@@ -103,6 +103,9 @@ router.get('/params/:name/:location/:occupation', (req, res, next) => {
 });
 
 
+console.log('Hello World');
+
+
 // Export
 
 module.exports = router;
