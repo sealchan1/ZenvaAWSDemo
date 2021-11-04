@@ -26,7 +26,7 @@ app.set('view engine', 'hjs');
 
 // Listen
 
-app.listen(3000);
+app.listen(80); // 3000
 console.log('Running and listening on port 3000');
 console.log('Hello World');
 console.log(process.env.DB_HOST);
