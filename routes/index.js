@@ -1,5 +1,6 @@
 // Modules
 
+require('dotenv').config(); // AWS
 const express = require('express');
 const router = express.Router();
 
@@ -101,9 +102,6 @@ router.get('/params/:name/:location/:occupation', (req, res, next) => {
     });
 
 });
-
-
-console.log('Hello World');
 
 
 // Export
